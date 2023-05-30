@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 4,
+    "files.encoding": "utf8",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        ".editorconfig": true,
+        ".gitignore": true,
+        ".prettierrc.json": true,
+        "LICENSE": true,
+        "node_modules": true
+    }
+}
