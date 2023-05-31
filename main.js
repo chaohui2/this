@@ -9,8 +9,10 @@ a1()
 
 // 3、在通过对象调用的标准函数中，this 引用的是把函数当成方法调用的上下文对象(调用时确定)
 const obj2 = {
-  say: function () {
-    console.log('第二个this', this)
+  fn: {
+    say: function () {
+      console.log('第二个this', this)
+    }
   }
 }
 obj2.say()
@@ -25,4 +27,6 @@ const obj3 = {
     fn3()
   }
 }
-obj3.say()
+
+// 5、call、apply、bind 强制指定 this
+// 6、new 关键词，this 指向 new 创建的对象
